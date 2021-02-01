@@ -16,25 +16,25 @@ class Home extends Component {
                         {/* Slide 1 */}
                         <div className="carousel-item active">
                             <div className="carousel-container">
-                                <h2 className="animate__animated animate__fadeInDown">Welcome to <span>Moderna</span></h2>
-                                <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                                <a href className="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                                <h2 className="animate__animated animate__fadeInDown">Bienvenidos a <span>Guide Stack</span></h2>
+                                <p className="animate__animated animate__fadeInUp">Aquí podrás encontrar toda la información sobre tu viaje.</p>
+                                <a href className="btn-get-started animate__animated animate__fadeInUp">Leer más</a>
                             </div>
                         </div>
                         {/* Slide 2 */}
                         <div className="carousel-item">
                             <div className="carousel-container">
-                                <h2 className="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                                <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                                <a href className="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                                <h2 className="animate__animated animate__fadeInDown">Ciudades y cultura</h2>
+                                <p className="animate__animated animate__fadeInUp">El mundo está repleto de cultura esperándote.</p>
+                                <a href className="btn-get-started animate__animated animate__fadeInUp">Leer más</a>
                             </div>
                         </div>
                         {/* Slide 3 */}
                         <div className="carousel-item">
                             <div className="carousel-container">
-                                <h2 className="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                                <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                                <a href className="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                                <h2 className="animate__animated animate__fadeInDown">Experimenta y disfruta</h2>
+                                <p className="animate__animated animate__fadeInUp">Las experiencias que van más allá y proporcionan recuerdos únicos.</p>
+                                <a href className="btn-get-started animate__animated animate__fadeInUp">Leer más</a>
                             </div>
                         </div>
                         <a className="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
