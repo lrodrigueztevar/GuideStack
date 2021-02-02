@@ -2352,3 +2352,10 @@ section {
 .logo-about {
   font-size: 200px;
 }
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0 5px 5px 0 #adb5bd;
+}
+.why-us {
+  padding-top: 10%;
+}

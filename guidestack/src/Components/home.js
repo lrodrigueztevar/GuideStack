@@ -9,7 +9,7 @@ class Home extends Component {
         return (
             //HTML code.
             <div>
-                <Header/>
+                <Header />
                 {/* ======= Hero Section ======= */}
                 <section id="hero" className="d-flex justify-cntent-center align-items-center">
                     <div id="heroCarousel" className="container carousel carousel-fade" data-ride="carousel">
@@ -45,13 +45,13 @@ class Home extends Component {
                     </div>
                 </section>{/* End Hero */}
                 <main id="main">
-                   {/* ======= Features Section ======= */}
-                   <section className="features">
+                    {/* ======= Features Section ======= */}
+                    <section className="features">
                         <div className="container">
                             <div className="section-title">
                                 <h2>¿Qué proporcionamos?</h2>
                                 <p>Guide Stack agrupa información de diversas ciudades de varios países para que te sea más sencillo moverte
-                                    en la nueva ciudad.
+                                en la nueva ciudad.
                                 </p>
                             </div>
                             <div className="row" data-aos="fade-up">
@@ -80,7 +80,7 @@ class Home extends Component {
                                 <div className="col-md-7 pt-5 order-2 order-md-1">
                                     <h3>Agenda de cada ciudad</h3>
                                     <p className="font-italic">
-                                        ¿Buscas un destino en el que haya una festividad? 
+                                        ¿Buscas un destino en el que haya una festividad?
                                     </p>
                                     <p>
                                         Nuestra agenda contiene todas las festividades de las ciudades de cada país, desde qué día
@@ -89,14 +89,14 @@ class Home extends Component {
                                     </p>
                                 </div>
                             </div>
-                            
+
                             <div className="row" data-aos="fade-up">
                                 <div className="col-md-5">
                                     <img src="assets/img/features-3.svg" className="img-fluid" alt="" />
                                 </div>
                                 <div className="col-md-7 pt-5">
                                     <h3>Planea tu viaje.</h3>
-                                    <p>Encuentra toda la información para moverte y experimentar la 
+                                    <p>Encuentra toda la información para moverte y experimentar la
                                         verdadera experiencia y cultura de tu destino:</p>
                                     <ul>
                                         <li><i className="icofont-check" /> Hoteles.</li>
@@ -125,7 +125,7 @@ class Home extends Component {
                         </div>
                     </section>{/* End Features Section */}
                 </main>{/* End #main */}
-                <Footer/>
+                <Footer />
             </div>
         )
     }
