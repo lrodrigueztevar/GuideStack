@@ -17,9 +17,7 @@ class Home extends Component {
                         <div className="carousel-item active">
                             <div className="carousel-container">
                                 <h2 className="animate__animated animate__fadeInDown">Bienvenidos a <span>Guide Stack</span></h2>
-                                {/*<a href="index.html"><img src="assets/img/logo.png" alt="" width="200" height="40" class="img-fluid"/></a>*/}
                                 <p className="animate__animated animate__fadeInUp">Aquí podrás encontrar toda la información sobre tu aventura.</p>
-                                <a href className="btn-get-started animate__animated animate__fadeInUp">Leer más</a>
                             </div>
                         </div>
                         {/* Slide 2 */}
@@ -27,7 +25,6 @@ class Home extends Component {
                             <div className="carousel-container">
                                 <h2 className="animate__animated animate__fadeInDown">Ciudades y cultura</h2>
                                 <p className="animate__animated animate__fadeInUp">El mundo está repleto de cultura esperándote.</p>
-                                <a href className="btn-get-started animate__animated animate__fadeInUp">Leer más</a>
                             </div>
                         </div>
                         {/* Slide 3 */}
@@ -35,7 +32,6 @@ class Home extends Component {
                             <div className="carousel-container">
                                 <h2 className="animate__animated animate__fadeInDown">Experimenta y disfruta</h2>
                                 <p className="animate__animated animate__fadeInUp">Las experiencias que van más allá y proporcionan recuerdos únicos.</p>
-                                <a href className="btn-get-started animate__animated animate__fadeInUp">Leer más</a>
                             </div>
                         </div>
                         <a className="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
@@ -113,7 +109,7 @@ class Home extends Component {
                             </div>
                             <div className="row" data-aos="fade-up">
                                 <div className="col-md-5 order-1 order-md-2">
-                                    <img src="assets/img/features-2.svg" className="img-fluid" alt="" />
+                                    <img src="assets/img/features-2.png" className="img-fluid" alt="" />
                                 </div>
                                 <div className="col-md-7 pt-5 order-2 order-md-1">
                                     <h3>Mapas</h3>
@@ -128,65 +124,6 @@ class Home extends Component {
                             </div>
                         </div>
                     </section>{/* End Features Section */}
-                    {/* ======= Why Us Section ======= */}
-                    <section className="why-us section-bg" data-aos="fade-up" date-aos-delay={200}>
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-6 video-box">
-                                    <img src="assets/img/why-us.jpg" className="img-fluid" alt="" />
-                                    <a href="https://www.youtube.com/watch?v=RB9zGWO8kqM" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" />
-                                </div>
-                                <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
-                                    <div className="icon-box">
-                                        <div className="icon"><i className="bx bx-fingerprint" /></div>
-                                        <h4 className="title"><a href>Lorem Ipsum</a></h4>
-                                        <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                                    </div>
-                                    <div className="icon-box">
-                                        <div className="icon"><i className="bx bx-gift" /></div>
-                                        <h4 className="title"><a href>Nemo Enim</a></h4>
-                                        <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>{/* End Why Us Section */}
-                    {/*
-                     {/* ======= Services Section ======= 
-                     <section className="services">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-                                    <div className="icon-box icon-box-pink">
-                                        <div className="icon"><i className="bx bxl-dribbble" /></div>
-                                        <h4 className="title"><a href>Lorem Ipsum</a></h4>
-                                        <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay={100}>
-                                    <div className="icon-box icon-box-cyan">
-                                        <div className="icon"><i className="bx bx-file" /></div>
-                                        <h4 className="title"><a href>Sed ut perspiciatis</a></h4>
-                                        <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay={200}>
-                                    <div className="icon-box icon-box-green">
-                                        <div className="icon"><i className="bx bx-tachometer" /></div>
-                                        <h4 className="title"><a href>Magni Dolores</a></h4>
-                                        <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay={200}>
-                                    <div className="icon-box icon-box-blue">
-                                        <div className="icon"><i className="bx bx-world" /></div>
-                                        <h4 className="title"><a href>Nemo Enim</a></h4>
-                                        <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section> End Services Section */}
                 </main>{/* End #main */}
                 <Footer/>
             </div>

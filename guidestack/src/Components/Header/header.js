@@ -7,21 +7,20 @@ class Header extends Component {
       <header id="header" className="fixed-top header-transparent">
         <div className="container">
           <div className="logo float-left">
-            <h1 className="text-light"><a href="#"><span>Guide </span>
-              <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid" /></a>
+            <h1 className="text-light"><a href="/"><span>Guide </span>
+              <a href="/"><img src="assets/img/logo.png" alt="" class="img-fluid" /></a>
             <span> Stack</span></a></h1>
-            {/* Uncomment below if you prefer to use an image logo */}
           </div>
           <nav className="nav-menu float-right d-none d-lg-block">
             <ul>
-              <li><a href="nosotros.html">Nosotros</a></li>
-              <li><a href="mapa.html">Mapa</a></li>
-              <li><a href="agenda.html">Agenda</a></li>
-              <li><a href="login.html">Iniciar sesión</a></li>
-              <li><a href="contact.html">Contacto</a></li>
+              <li><a href="/sitios">Sitios</a></li>
+              <li><a href="/nosotros">Nosotros</a></li>
+              <li><a href="/agenda">Agenda</a></li>
+              <li><a href="/login">Iniciar sesión</a></li>
             </ul>
           </nav>{/* .nav-menu */}
         </div>
+        
       </header>
 
     )
