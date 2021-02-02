@@ -2346,3 +2346,9 @@ section {
 #footer .credits a {
   color: #a2cce3;
 }
+.container-fluid {
+  padding: 60px 50px;
+}
+.logo-about {
+  font-size: 200px;
+}

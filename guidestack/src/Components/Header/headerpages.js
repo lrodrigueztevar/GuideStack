@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-class Header_page extends Component {
+class HeaderPages extends Component {
   render() {
     return (
       //HTML code.
-      <header id="header" className="fixed-top ">
+      <header id="header" className="fixed-top">
         <div className="container">
           <div className="logo float-left">
             <h1 className="text-light"><a href="/"><span>Guide </span>
@@ -18,14 +18,14 @@ class Header_page extends Component {
               <li><a href="/agenda">Agenda</a></li>
               <li><a href="/login">Iniciar sesión</a></li>
             </ul>
-          </nav>{/* .nav-menu */}
-          <div className="user">
+          </nav>{/* .nav-menu <div className="nav-menu user">
             <a href="#"><i class="fa fa-3x fa-user"></i></a>
-          </div>
+          </div> */}
+          
         </div>
       </header>
 
     )
   }
 }
-export default Header_page;
+export default HeaderPages;

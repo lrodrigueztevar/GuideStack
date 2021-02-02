@@ -1,33 +1,25 @@
 import React, { Component } from 'react';
 
-import Header from '../Header/header';
 import Footer from '../Footer/footer';
-
+import HeaderPages from '../Header/headerpages';
 
 class Nosotros extends Component {
     render() {
         return (
             <>
-                <Header />
+                <HeaderPages />
                 {/* ======= Why Us Section ======= */}
                 <section className="why-us section-bg" data-aos="fade-up" date-aos-delay={200}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 video-box">
-                                <img src="assets/img/why-us.jpg" className="img-fluid" alt="" />
-                                <a href="https://www.youtube.com/watch?v=RB9zGWO8kqM" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" />
+                                <img src="assets/img/logo.png" alt="" class="img-fluid" />
                             </div>
                             <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
-                                <div className="icon-box">
-                                    <div className="icon"><i className="bx bx-fingerprint" /></div>
-                                    <h4 className="title"><a href>Lorem Ipsum</a></h4>
-                                    <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                                </div>
-                                <div className="icon-box">
-                                    <div className="icon"><i className="bx bx-gift" /></div>
-                                    <h4 className="title"><a href>Nemo Enim</a></h4>
-                                    <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                                </div>
+                                <h1>Guide Stack</h1>
+                                <p className="font-italic">Cada viaje es una nueva aventura.</p>
+                                <p className="description">En Guide Stack nos dedicamos a facilitarle a las
+                                personas la planificación de sus viajes, sean por motivos de trabajo como de turismo.</p>
                             </div>
                         </div>
                     </div>

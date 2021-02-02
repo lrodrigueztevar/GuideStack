@@ -18,10 +18,10 @@ class Header extends Component {
               <li><a href="/agenda">Agenda</a></li>
               <li><a href="/login">Iniciar sesión</a></li>
             </ul>
-          </nav>{/* .nav-menu */}
-          <div className="nav-menu user">
+          </nav>{/* .nav-menu <div className="nav-menu user">
             <a href="#"><i class="fa fa-3x fa-user"></i></a>
-          </div>
+          </div> */}
+          
         </div>
       </header>
 
