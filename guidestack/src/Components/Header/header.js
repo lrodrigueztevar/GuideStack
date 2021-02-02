@@ -7,9 +7,10 @@ class Header extends Component {
       <header id="header" className="fixed-top header-transparent">
         <div className="container">
           <div className="logo float-left">
-            <h1 className="text-light"><a href="#"><span>Guide Stack</span></a></h1>
+            <h1 className="text-light"><a href="#"><span>Guide </span>
+              <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid" /></a>
+            <span> Stack</span></a></h1>
             {/* Uncomment below if you prefer to use an image logo */}
-            {/* <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
           </div>
           <nav className="nav-menu float-right d-none d-lg-block">
             <ul>

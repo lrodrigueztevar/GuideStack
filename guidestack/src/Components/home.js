@@ -17,6 +17,7 @@ class Home extends Component {
                         <div className="carousel-item active">
                             <div className="carousel-container">
                                 <h2 className="animate__animated animate__fadeInDown">Bienvenidos a <span>Guide Stack</span></h2>
+                                {/*<a href="index.html"><img src="assets/img/logo.png" alt="" width="200" height="40" class="img-fluid"/></a>*/}
                                 <p className="animate__animated animate__fadeInUp">Aquí podrás encontrar toda la información sobre tu aventura.</p>
                                 <a href className="btn-get-started animate__animated animate__fadeInUp">Leer más</a>
                             </div>
@@ -53,7 +54,7 @@ class Home extends Component {
                         <div className="container">
                             <div className="section-title">
                                 <h2>¿Qué proporcionamos?</h2>
-                                <p>Stack Guide agrupa información de diversas ciudades de varios países para que te sea más sencillo moverte
+                                <p>Guide Stack agrupa información de diversas ciudades de varios países para que te sea más sencillo moverte
                                     en la nueva ciudad.
                                 </p>
                             </div>
@@ -62,10 +63,10 @@ class Home extends Component {
                                     <img src="assets/img/features-1.svg" className="img-fluid" alt="" />
                                 </div>
                                 <div className="col-md-7 pt-4">
-                                    <h3>Información de necesidad de cada ciudad</h3>
+                                    <h3>Información de necesidad.</h3>
                                     <p className="font-italic">
                                         Si estás en una ciudad que no conoces y necesitas saber dónde se encuentran los sitios
-                                        de emergencia, Stack Guide te mostrará información de:
+                                        de emergencia, Guide Stack te mostrará información de:
                                     </p>
                                     <ul>
                                         <li><i className="icofont-check" /> Hospitales.</li>
@@ -98,12 +99,15 @@ class Home extends Component {
                                     <img src="assets/img/features-3.svg" className="img-fluid" alt="" />
                                 </div>
                                 <div className="col-md-7 pt-5">
-                                    <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-                                    <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+                                    <h3>Planea tu viaje.</h3>
+                                    <p>Encuentra toda la información para moverte y experimentar la 
+                                        verdadera experiencia y cultura de tu destino:</p>
                                     <ul>
-                                        <li><i className="icofont-check" /> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                        <li><i className="icofont-check" /> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                        <li><i className="icofont-check" /> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+                                        <li><i className="icofont-check" /> Hoteles.</li>
+                                        <li><i className="icofont-check" /> Taxis.</li>
+                                        <li><i className="icofont-check" /> Transporte público.</li>
+                                        <li><i className="icofont-check" /> Lugares de interés turístico.</li>
+                                        <li><i className="icofont-check" /> Sitios culturales de la ciudad.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -112,15 +116,13 @@ class Home extends Component {
                                     <img src="assets/img/features-2.svg" className="img-fluid" alt="" />
                                 </div>
                                 <div className="col-md-7 pt-5 order-2 order-md-1">
-                                    <h3>Corporis temporibus maiores provident</h3>
+                                    <h3>Mapas</h3>
                                     <p className="font-italic">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                        magna aliqua.
+                                        ¡Encuentra el sitio que necesitas más próximo a ti!
                                     </p>
                                     <p>
-                                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum
+                                        Te mostramos y filtramos en el mapa dónde se encuentra cada punto
+                                        de interés por cercanía a ti.
                                     </p>
                                 </div>
                             </div>
@@ -132,7 +134,7 @@ class Home extends Component {
                             <div className="row">
                                 <div className="col-lg-6 video-box">
                                     <img src="assets/img/why-us.jpg" className="img-fluid" alt="" />
-                                    <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" />
+                                    <a href="https://www.youtube.com/watch?v=RB9zGWO8kqM" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" />
                                 </div>
                                 <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
                                     <div className="icon-box">
@@ -149,8 +151,8 @@ class Home extends Component {
                             </div>
                         </div>
                     </section>{/* End Why Us Section */}
-                    
-                     {/* ======= Services Section ======= */}
+                    {/*
+                     {/* ======= Services Section ======= 
                      <section className="services">
                         <div className="container">
                             <div className="row">
@@ -184,7 +186,7 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                    </section>{/* End Services Section */}
+                    </section> End Services Section */}
                 </main>{/* End #main */}
                 <Footer/>
             </div>
