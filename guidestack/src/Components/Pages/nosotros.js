@@ -11,7 +11,7 @@ class Nosotros extends Component {
                 {/* ======= Why Us Section ======= */}
                 <section className="why-us section-bg" data-aos="fade-up" date-aos-delay={200}>
                     <div className="row justify-content-center">
-                            <h1 className="objetivos" >Sobre nosotros</h1>
+                            <h1 className="sobre-nosotros" >Sobre nosotros</h1>
                         </div>
                     <div className="container">
                         <div className="row justify-content-center">

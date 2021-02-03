@@ -2362,3 +2362,30 @@ section {
 .objetivos {
   padding-bottom: 5%;
 }
+.sobre-nosotros {
+  padding-bottom: 3%;
+}
+.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
