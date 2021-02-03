@@ -13,7 +13,7 @@ class Footer extends Component {
                   <h4>Newsletter</h4>
                   <p>Suscríbete a nuestro boletín informativo.</p>
                    <div>
-                    O <a href="/register">regístrate</a>.
+                    También puedes <a href="/register">registrarte</a> o <a href="/login">iniciar sesión</a>.
                   </div>
                 </div>
                 <div className="col-lg-6">
