@@ -61,15 +61,18 @@ class Home extends Component {
                                 <div className="col-md-7 pt-4">
                                     <h3>Información de necesidad.</h3>
                                     <p className="font-italic">
-                                        Si estás en una ciudad que no conoces y necesitas saber dónde se encuentran los sitios
-                                        de emergencia, Guide Stack te mostrará información de:
+                                        Si estás en una ciudad que no conoces y necesitas saber dónde se encuentran algunos 
+                                        sitios de necesidad, Guide Stack te mostrará información de:
                                     </p>
                                     <ul>
                                         <li><i className="icofont-check" /> Hospitales.</li>
                                         <li><i className="icofont-check" /> Farmacias.</li>
                                         <li><i className="icofont-check" /> Comisarías de policia.</li>
+                                        <li><i className="icofont-check" /> Bancos.</li>
                                         <li><i className="icofont-check" /> Bomberos.</li>
                                         <li><i className="icofont-check" /> Veterinarios.</li>
+                                        <li><i className="icofont-check" /> Gasolineras.</li>
+                                        <li><i className="icofont-check" /> Supermercados.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -100,7 +103,7 @@ class Home extends Component {
                                         verdadera experiencia y cultura de tu destino:</p>
                                     <ul>
                                         <li><i className="icofont-check" /> Hoteles.</li>
-                                        <li><i className="icofont-check" /> Taxis.</li>
+                                        <li><i className="icofont-check" /> Restaurantes.</li>
                                         <li><i className="icofont-check" /> Transporte público.</li>
                                         <li><i className="icofont-check" /> Lugares de interés turístico.</li>
                                         <li><i className="icofont-check" /> Sitios culturales de la ciudad.</li>
@@ -117,8 +120,8 @@ class Home extends Component {
                                         ¡Encuentra el sitio que necesitas más próximo a ti!
                                     </p>
                                     <p>
-                                        Te mostramos y filtramos en el mapa dónde se encuentra cada punto
-                                        de interés por cercanía a ti.
+                                        Te mostramos y filtramos en el mapa dónde se encuentra cualquier
+                                        sitio que necesites.
                                     </p>
                                 </div>
                             </div>

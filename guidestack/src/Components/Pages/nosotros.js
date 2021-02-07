@@ -38,21 +38,21 @@ class Nosotros extends Component {
                         </div>
                         <div className="row justify-content-center">
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay={100}>
-                                <a href="/sitios">
+                                <a href="/ciudades">
                                     <div className="icon-box icon-box-cyan">
                                         <div className="icon"><i className="bx bx-file" /></div>
-                                        <h4 className="title"><a href>Informar</a></h4>
+                                        <h4 className="title">Informar</h4>
                                         <p className="description">Encontrarás información útil sobre tu destino, además de datos desde
                                         las fechas donde hay festividades, los lugares de interés cultural, eventos de la zona, etc hasta hoteles
-                                    donde poder hospedarse.</p>
+                                    donde poder hospedarse.                                                                </p>
                                     </div>
                                 </a>
                             </div>
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay={200}>
-                                <a href="/sitios">
+                                <a href="/ciudades">
                                     <div className="icon-box icon-box-green">
                                         <div className="icon"><i className="bx bx-tachometer" /></div>
-                                        <h4 className="title"><a href>Seguridad</a></h4>
+                                        <h4 className="title">Seguridad</h4>
                                         <p className="description">Lo más importante a la hora de hacer un viaje es la seguridad, por eso
                                         nos encargamos de recopilar información sobre hospitales, farmacias, comisarías de policia, etc
                                     con la intención de que esta información sea fácil de acceder en caso de emergencia.</p>
@@ -61,10 +61,10 @@ class Nosotros extends Component {
 
                             </div>
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay={200}>
-                                <a href="/sitios">
+                                <a href="/ciudades">
                                     <div className="icon-box icon-box-blue">
                                         <div className="icon"><i className="bx bx-world" /></div>
-                                        <h4 className="title"><a href>Guiar</a></h4>
+                                        <h4 className="title">Guiar</h4>
                                         <p className="description">Podrás encontrar información de cómo llegar a donde te propongas
                                         gracias a que filtramos la información por tu ubicación actual, mostrandote resultados más
                                      cercanos a ti, además de darte información sobre el transporte público de la ciudad.</p>
