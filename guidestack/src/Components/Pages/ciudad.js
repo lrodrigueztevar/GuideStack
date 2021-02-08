@@ -106,11 +106,13 @@ class Ciudad extends Component {
                             <div className="row no-gutters">
                                 <div className="col-lg-6 text-white showcase-img" style={{ backgroundImage: 'url("/assets/img/ciudad2.jpg")' }} />
                                 <div className="col-lg-6 my-auto showcase-text" >
-                                    <h2>Título</h2>
-                                    <p className="lead mb-0">Valencia es famosa por la Ciudad 
-                                    de las Artes y las Ciencias, con estructuras futurísticas,
-                                 como el planetario, el <i>Oceanográfic</i>, 
-                                 museos interactivos, el Biopark (un zoo moderno) y muchas cosas más.</p>
+                                    <div className="boxinfo">
+                                        <h2>Título</h2>
+                                        <p className="lead mb-0">Valencia es famosa por la Ciudad 
+                                        de las Artes y las Ciencias, con estructuras futurísticas,
+                                    como el planetario, el <i>Oceanográfic</i>, 
+                                    museos interactivos, el Biopark (un zoo moderno) y muchas cosas más.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

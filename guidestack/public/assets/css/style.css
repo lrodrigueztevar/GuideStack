@@ -2433,3 +2433,9 @@ section {
   font-family: "Roboto", sans-serif;
   padding-top: 14px;
 }
+.boxinfo{
+  height: 612px;
+  margin: auto;
+  padding-top: 2%;
+  padding-left: 2%;
+}
