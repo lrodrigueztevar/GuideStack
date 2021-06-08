@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+#API Key from Google Maps
+guidestack/src/Components/Map/config.js
