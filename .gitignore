@@ -104,4 +104,4 @@ dist
 .tern-port
 
 #API Key from Google Maps
-guidestack/src/Components/Map/config.js
+/guidestack/src/Components/Map/
