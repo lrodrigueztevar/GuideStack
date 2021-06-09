@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
+import 'react-big-calendar/lib/css/react-big-calendar.css'
 import Home from './Components/Pages/Home'
 import AboutUs from './Components/Pages/About-us'
 import Cities from './Components/Pages/Cities'

@@ -10,6 +10,7 @@ module.exports = {
       },
       height: {
         xxl: '1000000px',
+        xlg: '35rem',
        },
     },
   },

@@ -1,36 +1,52 @@
-import { format, subHours, startOfMonth } from "date-fns";
-import {
-  MonthlyBody,
-  MonthlyDay,
-  MonthlyCalendar,
-  MonthlyNav,
-  DefaultMonthlyEventItem,
-} from "@zach.codes/react-calendar";
+import React from "react";
+import { Calendar, momentLocalizer } from "react-big-calendar";
+import moment from "moment";
+import { useState } from "react";
+import "moment/locale/es.js";
+
+const localizer = momentLocalizer(moment);
+
 const CalendarCity = () => {
+  const [events, setEvents] = useState([
+    {
+      start: "03/15/2021",
+      end: "03/20/2021",
+      title: "Fallas",
+    },
+    {
+      start: "05/12/2021",
+      end: "05/13/2021",
+      title: "Virgen de los desamparados",
+    },
+    {
+      start: "06/11/2021",
+      end: "06/15/2021",
+      title: "Corpus Christi",
+    },
+    {
+      start: "07/01/2021",
+      end: "07/15/2021",
+      title: "Gran fira de Valencia",
+    },
+    {
+      start: "10/09/2021",
+      end: "10/10/2021",
+      title: "Dia de la Comunitat",
+    },
+  ]);
+
   return (
-    <MonthlyCalendar
-      currentMonth={new Date("2021-05-31T22:00:00.000Z")}
-      onCurrentMonthChange={function noRefCheck() {}}
-    >
-      <MonthlyNav />
-      <MonthlyBody
-        events={[
-          {
-            date: new Date("2021-06-08T19:22:30.830Z"),
-            title: "Call John",
-          },
-          {
-            date: new Date("2021-06-08T20:22:30.830Z"),
-            title: "Call John",
-          },
-          {
-            date: new Date("2021-06-08T21:22:30.831Z"),
-            title: "Meeting with Bob",
-          },
-        ]}
-        renderDay={function noRefCheck() {}}
-      />
-    </MonthlyCalendar>
+    <div className="flex justify-center">
+      <div className="md:h-xlg md:w-11/12 py-6">
+        <Calendar
+          localizer={localizer}
+          defaultDate={new Date()}
+          defaultView="month"
+          events={events}
+        />
+      </div>
+    </div>
   );
 };
+
 export default CalendarCity;

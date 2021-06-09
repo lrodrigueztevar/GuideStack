@@ -7,7 +7,7 @@ const CalendarFestivities = () => {
             <li>
               <div className="md:flex md:justify-between max-w-screen transition duration-500 transform hover:-translate-y-1 hover:scale-110 border bg-white border-gray-200 rounded-lg shadow-md">
                 <div className="self-center ml-20 text-lg text-gray-900 w-1/2">
-                  <div className="font-bold">Las Fallas de València - 15/03/2022 - 19/03/2022</div>
+                  <div className="font-bold">Las Fallas de València - 15/03/2021 - 19/03/2021</div>
                   <div className="text-sm text-gray-500">
                   Enormes figuras que se levantan en la Ciudad de Valencia para ser quemadas por la fiesta de San José.<br/>
                   Son de gran interés turístico.
@@ -27,7 +27,7 @@ const CalendarFestivities = () => {
             <li>
               <div className="md:flex md:justify-between transition duration-500 transform hover:-translate-y-1 hover:scale-110 border bg-white border-gray-200 rounded-lg shadow-md">
                 <div className="self-center ml-20 text-lg text-gray-900 w-1/2">
-                  <div className="font-bold">Virgen de los desamparados - 12/05/2022</div>
+                  <div className="font-bold">Virgen de los desamparados - 12/05/2021</div>
                   <div className="text-sm text-gray-500">
                   Es la Patrona de la ciudad de València, a quien los valencianos dedican toda clase de honores y tributos.
                   </div>
@@ -46,7 +46,7 @@ const CalendarFestivities = () => {
             <li>
               <div className="md:flex md:justify-between transition duration-500 transform hover:-translate-y-1 hover:scale-110 border bg-white border-gray-200 rounded-lg shadow-md">
                 <div className="self-center ml-20 text-lg text-gray-900 w-1/2">
-                  <div className="font-bold">Corpus Christi València - 11/06/2022 - 14/06/2022</div>
+                  <div className="font-bold">Corpus Christi València - 11/06/2021 - 14/06/2021</div>
                   <div className="text-sm text-gray-500">
                   Es una muestra de la convivencia del espíritu festivo, simbólico, metafórico y religioso de la sociedad valenciana.
                   </div>
@@ -65,7 +65,7 @@ const CalendarFestivities = () => {
             <li>
               <div className="md:flex md:justify-between transition duration-500 transform hover:-translate-y-1 hover:scale-110 border bg-white border-gray-200 rounded-lg shadow-md">
                 <div className="self-center ml-20 text-lg text-gray-900 w-1/2">
-                  <div className="font-bold">Gran Fira de València - 01/07/2022 - 31/07/2022</div>
+                  <div className="font-bold">Gran Fira de València - 01/07/2021 - 31/07/2021</div>
                   <div className="text-sm text-gray-500">
                   Mes en el que la ciudad ofrece numerosas actividades y sus calles se llenan de color y ritmo con conciertos al aire libre y castillos de fuegos artificiales junto al mar.
                   </div>
@@ -84,7 +84,7 @@ const CalendarFestivities = () => {
             <li>
               <div className="md:flex md:justify-between transition duration-500 transform hover:-translate-y-1 hover:scale-110 border bg-white border-gray-200 rounded-lg shadow-md">
                 <div className="self-center ml-20 text-lg text-gray-900 w-1/2">
-                  <div className="font-bold">9 d'Octubre día de la comunitat - 09/10/2022</div>
+                  <div className="font-bold">9 d'Octubre día de la comunitat - 09/10/2021</div>
                   <div className="text-sm text-gray-500">
                   Históricamente se festeja que en esa fecha, en el año 1238, Jaime I entró oficialmente en la ciudad de València para liberarla del dominio musulmán.
                   </div>
