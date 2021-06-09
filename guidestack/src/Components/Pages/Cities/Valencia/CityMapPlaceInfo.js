@@ -52,7 +52,7 @@ const CityMapPlaceInfo = ({ photoUrl, name, address }) => {
                   </p>
                 </div>
                 <footer className="mt-6">
-                  <p className="mt-5 text-lg text-gray-200">{address}</p>
+                  <p className="mt-5 pb-5 text-lg text-gray-200">{address}</p>
                 </footer>
               </blockquote>
             </div>

@@ -19,7 +19,7 @@ const CityCulture = () => {
             <p className="mt-5 text-lg text-gray-300">
             El talante innovador, la creatividad, la capacidad de absorción de las diversas influencias y los valores de convivencia y tolerancia han forjado una cultura que es nacional y cosmopolita a la vez. Las nuevas corrientes de arte y de pensamiento penetran tradicionalmente con fuerza en Cataluña gracias a la situación geográfica del país, abierta a los países del Mediterráneo y de Europa, y gracias también a la atracción y el espíritu pionero que genera Barcelona.
             </p>
-              <div className="mt-8">
+              <div className="mt-8 pb-8 sm:mb-0">
               <div className="inline-flex rounded-md shadow">
                 <a
                   href="/agenda"

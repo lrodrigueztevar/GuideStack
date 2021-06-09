@@ -19,7 +19,7 @@ const CityCulture = () => {
             <p className="mt-5 text-lg text-gray-300">
             Es un influyente centro cultural y cuenta con museos de referencia internacional, entre los que destacan el Museo del Prado, el Museo Nacional Centro de Arte Reina Sofía, el Thyssen-Bornemisza y CaixaForum Madrid, que ocupan, respectivamente, el 14.º, 10.º, 67.º y 79.º puesto entre los museos más visitados del mundo.
             </p>
-              <div className="mt-8">
+              <div className="mt-8 pb-8 sm:mb-0">
               <div className="inline-flex rounded-md shadow">
                 <a
                   href="/agenda"

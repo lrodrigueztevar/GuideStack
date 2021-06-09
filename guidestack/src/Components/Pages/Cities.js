@@ -30,7 +30,7 @@ const Cities = ({ google }) => {
           <div className="h-full w-full">
             <div className="h-full">
             <img
-                className="h-full w-full object-fill opacity-50 xl:absolute xl:inset-0"
+                className="h-full w-full object-cover opacity-50 xl:absolute xl:inset-0"
                 src="https://elviajerofeliz.com/wp-content/uploads/2019/02/Ciudades-de-Espan%CC%83a.jpg"
                 alt="Travel"
               />

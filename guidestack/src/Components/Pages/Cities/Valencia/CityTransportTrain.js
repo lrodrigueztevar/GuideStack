@@ -4,7 +4,7 @@ const CityTransportTrain = () => {
         <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
           <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
             <div>
-              <div className="mb-60">
+              <div className="lg:b-60">
                 <div className="mb-5">
                   <svg
                     className="h-10 w-10 text-gray-900 opacity-50"
@@ -61,7 +61,7 @@ const CityTransportTrain = () => {
             <div className="py-12 sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
               <div className="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-screen lg:h-full lg:pl-12">
                 <img
-                  className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-screen"
+                  className="md:w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto max-w-screen"
                   src="https://www.renfe.com/es/es/cercanias/cercanias-valencia/mapas/_jcr_content/root/rfdetail_1533976044/responsivegrid/rfimg.coreimg.png/1595495710240/valencia.png"
                   alt=""
                 />

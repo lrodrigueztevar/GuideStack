@@ -1,7 +1,7 @@
 const CityMapButtons = ({ handleButtonClick }) => {
   return (
     <div className="mt-5 pb-5 flex place-content-center">
-      <span className="inline-flex shadow-sm rounded-md">
+      <span className="lg:inline-flex space-x-4 space-y-2 lg:space-y-0 lg:space-x-0 shadow-sm rounded-md">
         <button
           onClick={() => {
             handleButtonClick("sitios de interes");

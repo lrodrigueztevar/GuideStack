@@ -4,7 +4,7 @@ const CityTransportMetro = () => {
       <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
         <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
           <div>
-            <div className="mb-60">
+            <div className="lg:mb-60">
               <div className="mb-5">
                 <svg
                   className="h-10 w-10 text-gray-900 opacity-50"
