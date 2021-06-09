@@ -3,6 +3,7 @@ import { useState } from "react";
 import config from "../../Map/config";
 import CityMapButtons from "./CityMapButtons";
 import CityMapPlaceInfo from "./CityMapPlaceInfo";
+import { v4 as uuidv4 } from 'uuid';
 
 const CityMap = ({ google }) => {
   const [markers, setMarkers] = useState([]);
@@ -38,7 +39,7 @@ const CityMap = ({ google }) => {
                   address: result.formatted_address,
                 });
               }}
-              key={result.name}
+              key={uuidv4()}
               name={result.name}
               position={{
                 lat: result.geometry.location.lat(),
@@ -47,7 +48,7 @@ const CityMap = ({ google }) => {
             />
           );
         }
-
+        console.log(results)
         setMarkers(markers);
       }
     );

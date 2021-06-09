@@ -21,8 +21,8 @@ class Header extends React.Component {
       <div className="fixed top-0 left-0 right-0 z-20">
         <div className="w-10 h-10 flex transform relative transition-all duration-1000">
           <div className={this.state.active ? activeSide : hiddenSide}>
-            <div className="space-y-6">
-              <div className="flex items-center">
+            <div className="space-y-6 space-x-3">
+              <div className="flex items-center pt-3 pl-3">
                 <div className="flex items-center h-10 w-10 text-4xl font-medium rounded-md">
                   <img src="/assets/img/logo.png" alt="Logo" />
                 </div>
@@ -33,7 +33,7 @@ class Header extends React.Component {
               <div>
                 <a
                   href="/"
-                  className="text-gray-300 hover:bg-gray-900 group flex items-center px-2 py-2 text-2xl font-medium rounded-md"
+                  className="text-gray-300 hover:bg-gray-900 group flex items-center px-2 py-3 text-2xl font-medium rounded-md"
                 >
                   <svg
                     className="text-gray-400 mr-4 h-8 w-8"
@@ -54,7 +54,7 @@ class Header extends React.Component {
                 </a>
                 <a
                   href="/ciudades"
-                  className="text-gray-300 hover:bg-gray-900 hover:text-white group flex items-center px-2 py-2 text-2xl font-medium rounded-md"
+                  className="text-gray-300 hover:bg-gray-900 hover:text-white group flex items-center px-2 py-3 text-2xl font-medium rounded-md"
                 >
                   <svg
                     className="text-gray-400 group-hover:text-gray-300 mr-4 h-8 w-8"
@@ -74,7 +74,7 @@ class Header extends React.Component {
                 </a>
                 <a
                   href="/calendario"
-                  className="text-gray-300 hover:bg-gray-900 hover:text-white group flex items-center px-2 py-2 text-2xl font-medium rounded-md"
+                  className="text-gray-300 hover:bg-gray-900 hover:text-white group flex items-center px-2 py-3 text-2xl font-medium rounded-md"
                 >
                   <svg
                     className="text-gray-400 group-hover:text-gray-300 mr-4 h-8 w-8"
@@ -95,7 +95,7 @@ class Header extends React.Component {
                 </a>
                 <a
                   href="/nosotros"
-                  className="text-gray-300 hover:bg-gray-900 hover:text-white group flex items-center px-2 py-2 text-2xl font-medium rounded-md"
+                  className="text-gray-300 hover:bg-gray-900 hover:text-white group flex items-center px-2 py-3 text-2xl font-medium rounded-md"
                 >
                   <svg
                     className="text-gray-400 group-hover:text-gray-300 mr-4 h-8 w-8"

@@ -3,6 +3,7 @@ import { useState } from "react";
 import config from "../../Map/config";
 import CityMapButtons from "./CityMapButtons";
 import CityMapPlaceInfo from "./CityMapPlaceInfo";
+import { v4 as uuidv4 } from 'uuid';
 
 const CityMap = ({ google }) => {
   const [markers, setMarkers] = useState([]);
@@ -29,8 +30,6 @@ const CityMap = ({ google }) => {
           markers.push(
             <Marker
               onClick={() => {
-                // TODO: Hacer scroll a la información del lugar.
-                
                 setActiveResult({
                   photoUrl:
                     result.photos?.length > 0
@@ -40,7 +39,7 @@ const CityMap = ({ google }) => {
                   address: result.formatted_address,
                 });
               }}
-              key={result.name}
+              key={uuidv4()}
               name={result.name}
               position={{
                 lat: result.geometry.location.lat(),
@@ -49,7 +48,7 @@ const CityMap = ({ google }) => {
             />
           );
         }
-
+        console.log(results)
         setMarkers(markers);
       }
     );

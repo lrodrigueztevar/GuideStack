@@ -34,23 +34,6 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-8 xl:mt-0">
-                            <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                                Suscríbete
-                            </h3>
-                            <p className="mt-4 text-base text-gray-300">
-                                Las últimas novedades de Guide Stack en tu correo semanalmente.
-                            </p>
-                            <form className="mt-4 sm:flex sm:max-w-md">
-                                <label htmlFor="emailAddress" className="sr-only">Correo electrónico</label>
-                                <input type="email" name="emailAddress" id="emailAddress" autoComplete="email" required className="appearance-none min-w-0 w-full bg-white border border-transparent rounded-md py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400" placeholder="Escribe tu email" />
-                                <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-                                    <button type="submit" className="w-full bg-cyan-900 rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-cyan-600 focus:outline-none">
-                                        Suscribirse
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
                     </div>
                     <div className="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
                         <div className="flex space-x-6 justify-content-center md:order-2">

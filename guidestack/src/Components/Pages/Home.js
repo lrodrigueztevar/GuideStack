@@ -16,27 +16,19 @@ const Home = () => {
           </div>
         </div>
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-1 xl:grid-flow-col-dense xl:gap-x-8">
-          <div className="relative pt-12 pb-64 sm:pb-64 xl:col-span-2 xl:pb-24">
+          <div className="relative pt-36 pb-64 sm:pb-64 xl:col-span-2 xl:pb-24">
             <h1 className="text-4xl md:text-6xl tracking-wide uppercase">
               <span className="bg-gradient-to-r from-green-300 to-blue-300 bg-clip-text text-transparent">Bienvenidos a Guide Stack</span>
             </h1>
             <p className="mt-5 text-2xl text-gray-300">El mundo está repleto de aventuras y experiencias esperándote</p>
             <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
               <p>
-                <span className="flex place-content-center text-2xl font-bold text-green-200">8K+<svg className="w-6 h-6 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg></span>
-                <span className="mt-1 block text-base text-gray-300">La <span className="font-medium text-white">gente</span> ya nos utiliza para buscar destinos.</span>
+                <span className="flex place-content-center text-2xl font-bold text-yellow-200">78%<svg className="w-6 h-6 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
+                <span className="mt-1 block text-base text-gray-300"><span className="font-medium text-white">Usuarios interesados</span> por los resultados de nuestra web.</span>
               </p>
               <p>
-                <span className="flex place-content-center text-2xl font-bold text-cyan-200">25K+<svg className="w-6 h-6 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
-                <span className="mt-1 block text-base text-gray-300"><span className="font-medium text-white">Países de todo el mundo</span> han buscado alguna vez aquí.</span>
-              </p>
-              <p>
-                <span className="flex place-content-center text-2xl font-bold text-yellow-200">98%<svg className="w-6 h-6 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
-                <span className="mt-1 block text-base text-gray-300"><span className="font-medium text-white">Usuarios satisfechos</span> por los resultados de nuestra web.</span>
-              </p>
-              <p>
-                <span className="flex place-content-center text-2xl font-bold text-pink-200">12M+<svg className="w-6 h-6 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg></span>
-                <span className="mt-1 block text-base text-gray-300"><span className="font-medium text-white">Problemas resueltos</span> a la hora de viajar.</span>
+                <span className="flex place-content-center text-2xl font-bold text-cyan-200">30+<svg className="w-6 h-6 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
+                <span className="mt-1 block text-base text-gray-300">Usuarios quieren que se amplíe el proyecto<span className="font-medium text-white"> a más ciudades.</span></span>
               </p>
             </div>
           </div>
@@ -149,7 +141,7 @@ const Home = () => {
                 </p>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer/>
     </>
   )
 }
