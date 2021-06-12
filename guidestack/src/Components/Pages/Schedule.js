@@ -89,25 +89,25 @@ const Schedule = ({ google }) => {
           <Marker
             onClick={onMarkerClick}
             name={"Cuenca"}
-            url={"/ciudades/cuenca"}
+            url={"/calendario/cuenca"}
             position={{ lat: 40.0716146193432, lng: -2.1372026862629543 }}
           />
           <Marker
             onClick={onMarkerClick}
             name={"Málaga"}
-            url={"/ciudades/malaga"}
+            url={"/calendario/malaga"}
             position={{ lat: 36.719444, lng: -4.420000 }}
           />
           <Marker
             onClick={onMarkerClick}
             name={"Sevilla"}
-            url={"/ciudades/sevilla"}
+            url={"/calendario/sevilla"}
             position={{ lat: 37.3826, lng:  -5.99629 }}
           />
           <Marker
             onClick={onMarkerClick}
             name={"Zaragoza"}
-            url={"/ciudades/zaragoza"}
+            url={"/calendario/zaragoza"}
             position={{ lat: 41.6563, lng: -0.876566 }}
           />
           <InfoWindow marker={activeMarker} visible={showingInfoWindow}>
