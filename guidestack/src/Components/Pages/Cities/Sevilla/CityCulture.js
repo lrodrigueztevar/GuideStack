@@ -6,7 +6,7 @@ const CityCulture = () => {
           <div className="h-full xl:relative xl:col-start-2">
             <img
               className="h-full w-full object-cover xl:absolute xl:inset-0"
-              src="/assets/img/ciudad1.jpg"
+              src="https://www.101viajes.com/sites/default/files/styles/guia-full/public/sevilla-ciudad.jpg"
               alt="Ciudad"
             />
           </div>
@@ -20,19 +20,16 @@ const CityCulture = () => {
             </span>
           </h2>
           <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Valencia
+            Sevilla
           </p>
           <p className="mt-5 text-lg text-gray-300">
-            Valencia es famosa por la Ciudad de las Artes y las Ciencias, con
-            estructuras futurísticas, como el planetario, el <i>Oceanográfic</i>
-            , museos interactivos, el Biopark (un zoo moderno) y sobretodo, por
-            su festividad las <b>Fallas</b>, consideradas Patrimonio Cultural
-            Inmaterial de la Humanidad y fiesta de gran interés turístico.
+          Una de las ciudades con más monumentos catalogados en Europa, su casco histórico es uno de los mayores de España,
+             su patrimonio histórico y monumental y sus diversos espacios escénicos y culturales la constituyen en ciudad receptora de turismo nacional e internacional.
           </p>
           <div className="mt-8 pb-8 sm:mb-0">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="/calendario/valencia"
+                href="/calendario/sevilla"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
               >
                 Ir a agenda

@@ -6,7 +6,7 @@ import Footer from "../../Footer";
 import Header from "../../Header";
 import CityTransport from "./CityTransport";
 
-const ValenciaCity = () => {
+const ZaragozaCity = () => {
   return (
     <>
       <Header />
@@ -18,4 +18,4 @@ const ValenciaCity = () => {
     </>
   );
 };
-export default ValenciaCity;
+export default ZaragozaCity;

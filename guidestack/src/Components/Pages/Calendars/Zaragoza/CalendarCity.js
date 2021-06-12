@@ -9,29 +9,24 @@ const localizer = momentLocalizer(moment);
 const CalendarCity = () => {
   const [events] = useState([
     {
-      start: "03/15/2021",
-      end: "03/20/2021",
-      title: "Fallas",
+      start: "01/29/2021",
+      end: "01/30/2021",
+      title: "San Valero",
     },
     {
-      start: "05/12/2021",
-      end: "05/13/2021",
-      title: "Virgen de los desamparados",
-    },
-    {
-      start: "06/11/2021",
-      end: "06/15/2021",
-      title: "Corpus Christi",
-    },
-    {
-      start: "07/01/2021",
-      end: "07/15/2021",
-      title: "Gran fira de Valencia",
+      start: "03/05/2021",
+      end: "03/06/2021",
+      title: "La Cincomarzada",
     },
     {
       start: "10/09/2021",
-      end: "10/10/2021",
-      title: "Dia de la Comunitat",
+      end: "10/18/2021",
+      title: "Fiestas del Pilar",
+    },
+    {
+      start: "04/23/2021",
+      end: "04/24/2021",
+      title: "San Jorge",
     },
   ]);
 

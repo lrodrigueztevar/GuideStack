@@ -5,7 +5,7 @@ import CalendarWelcome from "./CalendarWelcome";
 import CalendarCity from "./CalendarCity";
 import CalendarFestivities from "./CalendarFestivities";
 
-const ValenciaCalendar = () => {
+const SevillaCalendar = () => {
   return (
     <>
       <Header />
@@ -16,4 +16,4 @@ const ValenciaCalendar = () => {
     </>
   );
 };
-export default ValenciaCalendar;
+export default SevillaCalendar;

@@ -14,8 +14,7 @@ const CityMap = ({ google }) => {
     placesApi.textSearch(
       {
         location: new google.maps.LatLng(
-          39.482712332904015,
-          -0.3764791634542603
+          41.6563, -0.876566
         ),
         radius: "5000",
         query: categoryName,
@@ -77,8 +76,7 @@ const CityMap = ({ google }) => {
         <Map
           google={google}
           initialCenter={{
-            lat: 39.469917182196205,
-            lng: -0.3762872295916296,
+            lat: 41.6563, lng: -0.876566
           }}
           zoom={14}
           containerStyle={{

@@ -9,29 +9,29 @@ const localizer = momentLocalizer(moment);
 const CalendarCity = () => {
   const [events] = useState([
     {
-      start: "03/15/2021",
-      end: "03/20/2021",
-      title: "Fallas",
+      start: "05/22/2021",
+      end: "05/25/2021",
+      title: "El Rocío",
     },
     {
-      start: "05/12/2021",
-      end: "05/13/2021",
-      title: "Virgen de los desamparados",
+      start: "04/17/2021",
+      end: "04/25/2021",
+      title: "Semana Santa",
     },
     {
-      start: "06/11/2021",
-      end: "06/15/2021",
-      title: "Corpus Christi",
+      start: "05/30/2021",
+      end: "05/31/2021",
+      title: "San Fernando",
     },
     {
-      start: "07/01/2021",
-      end: "07/15/2021",
-      title: "Gran fira de Valencia",
+      start: "06/02/2021",
+      end: "06/03/2021",
+      title: "Función votiva al cristo de San Agustín",
     },
     {
-      start: "10/09/2021",
-      end: "10/10/2021",
-      title: "Dia de la Comunitat",
+      start: "08/15/2021",
+      end: "08/16/2021",
+      title: "Virgen de los Reyes",
     },
   ]);
 

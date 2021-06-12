@@ -37,7 +37,7 @@ const CityTransportTrain = () => {
                 <div className="mt-8">
                   <div className="inline-flex rounded-md shadow">
                     <a
-                      href="https://www.renfe.com/es/es/cercanias/cercanias-valencia" target="_blank" rel="noopener noreferrer"
+                      href="https://www.renfe.com/es/es/cercanias/cercanias-zaragoza" target="_blank" rel="noopener noreferrer"
                       className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-teal-200 hover:bg-teal-50"
                     >
                       Ir a la web
@@ -62,7 +62,7 @@ const CityTransportTrain = () => {
               <div className="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-screen lg:h-full lg:pl-12">
                 <img
                   className="md:w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto max-w-screen"
-                  src="https://www.renfe.com/es/es/cercanias/cercanias-valencia/mapas/_jcr_content/root/rfdetail_1533976044/responsivegrid/rfimg.coreimg.png/1595495710240/valencia.png"
+                  src="https://www.renfe.com/es/es/cercanias/cercanias-zaragoza/mapas/_jcr_content/root/rfdetail_1533976044/responsivegrid/rfimg.coreimg.png/1592815236081/zaragoza.png"
                   alt=""
                 />
               </div>

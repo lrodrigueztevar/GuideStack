@@ -98,6 +98,18 @@ const Schedule = ({ google }) => {
             url={"/ciudades/malaga"}
             position={{ lat: 36.719444, lng: -4.420000 }}
           />
+          <Marker
+            onClick={onMarkerClick}
+            name={"Sevilla"}
+            url={"/ciudades/sevilla"}
+            position={{ lat: 37.3826, lng:  -5.99629 }}
+          />
+          <Marker
+            onClick={onMarkerClick}
+            name={"Zaragoza"}
+            url={"/ciudades/zaragoza"}
+            position={{ lat: 41.6563, lng: -0.876566 }}
+          />
           <InfoWindow marker={activeMarker} visible={showingInfoWindow}>
             <div>
               <a href={selectedPlace.url}>

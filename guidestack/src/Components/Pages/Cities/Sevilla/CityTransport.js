@@ -41,7 +41,7 @@ const CityTransport = () => {
               setSelectedTransportMethod('train')
             }}
             type="button"
-            className="-ml-px relative inline-flex items-center px-6 py-4 rounded-r-md border border-gray-300 bg-white text-lg font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:text-white focus:bg-cyan-900 focus:outline-none focus:ring-1 focus:ring-cyan-200 focus:border-cyan-200"
+            className="disabled:opacity-50 -ml-px relative inline-flex items-center px-6 py-4 rounded-r-md border border-gray-300 bg-white text-lg font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:text-white focus:bg-cyan-900 focus:outline-none focus:ring-1 focus:ring-cyan-200 focus:border-cyan-200" disabled
           >
             Cercanías
           </button>

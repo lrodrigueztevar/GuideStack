@@ -28,17 +28,17 @@ const CityTransportMetro = () => {
               </div>
               <div className="mt-6 sm:max-w-xl">
                 <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
-                  Metro
+                  Tranvía
                 </h1>
                 <p className="mt-6 text-xl text-gray-500">
-                  El metro es sin duda la mejor opción a la hora de moverte por
+                  El tranvía es sin duda la mejor opción a la hora de moverte por
                   la ciudad.
                 </p>
               </div>
               <div className="mt-8">
                 <div className="inline-flex rounded-md shadow">
                   <a
-                    href="https://www.metrovalencia.es/page.php?page_id=1" target="_blank" rel="noopener noreferrer"
+                    href="https://www.tranviasdezaragoza.es/es/" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-teal-200 hover:bg-teal-50"
                   >
                     Ir a la web
@@ -63,7 +63,7 @@ const CityTransportMetro = () => {
             <div className="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-screen lg:h-full lg:pl-12">
               <img
                 className="md:w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto max-w-screen"
-                src="https://mapa-metro.com/mapas/Valencia/mapa-metro-valencia.jpg"
+                src="https://sites.google.com/site/transportepublicoticsrebeca/_/rsrc/1452166619732/zaragoza/linea1.jpg"
                 alt=""
               />
             </div>
