@@ -32,7 +32,7 @@ const CalendarCity = () => {
 
   return (
     <div className="flex justify-center">
-      <div className="md:h-xlg md:w-11/12 py-6">
+      <div className="h-xlg w-11/12 py-6">
         <Calendar
           localizer={localizer}
           defaultDate={new Date()}
