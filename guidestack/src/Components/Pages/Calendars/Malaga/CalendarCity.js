@@ -9,29 +9,29 @@ const localizer = momentLocalizer(moment);
 const CalendarCity = () => {
   const [events] = useState([
     {
-      start: "03/15/2021",
-      end: "03/20/2021",
-      title: "Fallas",
+      start: "08/15/2021",
+      end: "08/24/2021",
+      title: "Feria de Málaga",
     },
     {
-      start: "05/12/2021",
-      end: "05/13/2021",
-      title: "Virgen de los desamparados",
+      start: "04/17/2021",
+      end: "04/24/2021",
+      title: "Semana Santa",
     },
     {
-      start: "06/11/2021",
-      end: "06/15/2021",
-      title: "Corpus Christi",
+      start: "06/23/2021",
+      end: "06/24/2021",
+      title: "Noche de San Juan",
     },
     {
-      start: "07/01/2021",
-      end: "07/15/2021",
-      title: "Gran fira de Valencia",
+      start: "07/16/2021",
+      end: "07/17/2021",
+      title: "La virgen del Carmen",
     },
     {
-      start: "10/09/2021",
-      end: "10/10/2021",
-      title: "Dia de la Comunitat",
+      start: "02/03/2021",
+      end: "02/27/2021",
+      title: "Carnaval de Málaga",
     },
   ]);
 

@@ -9,29 +9,29 @@ const localizer = momentLocalizer(moment);
 const CalendarCity = () => {
   const [events] = useState([
     {
-      start: "03/15/2021",
-      end: "03/20/2021",
-      title: "Fallas",
+      start: "09/23/2021",
+      end: "09/27/2021",
+      title: "La Mercé",
     },
     {
-      start: "05/12/2021",
-      end: "05/13/2021",
-      title: "Virgen de los desamparados",
+      start: "09/11/2021",
+      end: "09/12/2021",
+      title: "Diada de Catalunya",
     },
     {
-      start: "06/11/2021",
-      end: "06/15/2021",
-      title: "Corpus Christi",
+      start: "04/23/2021",
+      end: "04/24/2021",
+      title: "Sant Jordi",
     },
     {
-      start: "07/01/2021",
-      end: "07/15/2021",
-      title: "Gran fira de Valencia",
+      start: "08/14/2021",
+      end: "08/23/2021",
+      title: "Festa Major de Gràcia",
     },
     {
-      start: "10/09/2021",
-      end: "10/10/2021",
-      title: "Dia de la Comunitat",
+      start: "08/20/2021",
+      end: "08/30/2021",
+      title: "Festa Major de Sants",
     },
   ]);
 

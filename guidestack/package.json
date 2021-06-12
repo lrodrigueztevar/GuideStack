@@ -13,7 +13,6 @@
     "antd": "^4.15.1",
     "bootstrap": "^4.6.0",
     "date-fns": "^2.22.1",
-    "google-map-react": "^2.1.9",
     "google-maps-react": "^2.0.6",
     "moment": "^2.29.1",
     "react": "^17.0.1",
@@ -28,7 +27,10 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docker:build": "docker build -t lrodrigueztevar/guidestack .",
+    "docker:run": "docker run -p 3000:3000 lrodrigueztevar/guidestack",
+    "docker:stop": "docker rm -f lrodrigueztevar/guidestack"
   },
   "eslintConfig": {
     "extends": [

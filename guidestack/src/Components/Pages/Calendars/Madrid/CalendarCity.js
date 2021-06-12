@@ -9,29 +9,24 @@ const localizer = momentLocalizer(moment);
 const CalendarCity = () => {
   const [events] = useState([
     {
-      start: "03/15/2021",
-      end: "03/20/2021",
-      title: "Fallas",
+      start: "05/02/2021",
+      end: "05/03/2021",
+      title: "Día de la comunidad de Madrid",
     },
     {
-      start: "05/12/2021",
-      end: "05/13/2021",
-      title: "Virgen de los desamparados",
+      start: "05/15/2021",
+      end: "05/16/2021",
+      title: "San Isidro",
     },
     {
-      start: "06/11/2021",
-      end: "06/15/2021",
-      title: "Corpus Christi",
+      start: "08/15/2021",
+      end: "08/16/2021",
+      title: "La Asunción de la Virgen",
     },
     {
-      start: "07/01/2021",
-      end: "07/15/2021",
-      title: "Gran fira de Valencia",
-    },
-    {
-      start: "10/09/2021",
-      end: "10/10/2021",
-      title: "Dia de la Comunitat",
+      start: "11/09/2021",
+      end: "11/10/2021",
+      title: "Virgen de la Almudena",
     },
   ]);
 

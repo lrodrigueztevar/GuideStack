@@ -3,7 +3,6 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      {/* Footer */}
       <footer className="bg-gray-800 pt-7" aria-labelledby="footerHeading">
         <h2 id="footerHeading" className="sr-only">
           Footer
@@ -144,7 +143,6 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      {/* End Footer */}
     </div>
   );
 };

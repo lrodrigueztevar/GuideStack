@@ -86,6 +86,18 @@ const Cities = ({ google }) => {
             url={"/ciudades/barcelona"}
             position={{ lat: 41.38664764822073, lng: 2.170154299427398 }}
           />
+          <Marker
+            onClick={onMarkerClick}
+            name={"Cuenca"}
+            url={"/ciudades/cuenca"}
+            position={{ lat: 40.0716146193432, lng: -2.1372026862629543 }}
+          />
+          <Marker
+            onClick={onMarkerClick}
+            name={"Málaga"}
+            url={"/ciudades/malaga"}
+            position={{ lat: 36.719444, lng: -4.420000 }}
+          />
           <InfoWindow marker={activeMarker} visible={showingInfoWindow}>
             <div>
               <a href={selectedPlace.url}>

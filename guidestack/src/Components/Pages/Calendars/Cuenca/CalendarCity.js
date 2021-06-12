@@ -9,29 +9,29 @@ const localizer = momentLocalizer(moment);
 const CalendarCity = () => {
   const [events] = useState([
     {
-      start: "03/15/2021",
-      end: "03/20/2021",
-      title: "Fallas",
+      start: "03/28/2021",
+      end: "04/05/2021",
+      title: "Procesión camino del Calvario y las Turbas",
     },
     {
-      start: "05/12/2021",
-      end: "05/13/2021",
-      title: "Virgen de los desamparados",
+      start: "04/11/2021",
+      end: "04/18/2021",
+      title: "Semana de la música religiosa",
     },
     {
-      start: "06/11/2021",
-      end: "06/15/2021",
-      title: "Corpus Christi",
+      start: "01/28/2021",
+      end: "01/29/2021",
+      title: "San Julián",
     },
     {
-      start: "07/01/2021",
-      end: "07/15/2021",
-      title: "Gran fira de Valencia",
+      start: "09/18/2021",
+      end: "09/22/2021",
+      title: "San Mateo",
     },
     {
-      start: "10/09/2021",
-      end: "10/10/2021",
-      title: "Dia de la Comunitat",
+      start: "06/01/2021",
+      end: "06/02/2021",
+      title: "Virgen de la luz",
     },
   ]);
 

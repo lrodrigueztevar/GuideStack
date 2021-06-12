@@ -22,7 +22,7 @@ const CityCulture = () => {
               <div className="mt-8 pb-8 sm:mb-0">
               <div className="inline-flex rounded-md shadow">
                 <a
-                  href="/agenda"
+                  href="/calendario/madrid"
                   className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
                 >
                   Ir a agenda
