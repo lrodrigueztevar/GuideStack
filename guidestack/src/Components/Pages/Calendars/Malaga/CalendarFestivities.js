@@ -16,7 +16,7 @@ const CalendarFestivities = () => {
                   <div className="self-center lg:pl-2 flex-shrink-0">
                     <img
                       className="h-36 w-full md:w-screen object-cover opacity-50 border rounded-xl md:rounded-full"
-                      src="https://lh3.googleusercontent.com/proxy/hcekKq76vDHi9X5NPu9di5ghVe3tTrp-3e0dsgFRGfqEARkjnMf25tKDtv3fLecTvzAK3x2g92MIhUQeHSrKsmxB7s0I69sygMXH-oLRrlPK9HjL6JrIvixmXAkuqmPwsw"
+                      src="https://www.malagahoy.es/2020/05/14/malaga/Afluencia-masiva-Cortijo-Torres-Feria_1464464087_121386884_667x375.jpg"
                       alt=""
                     />
                   </div>
