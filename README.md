@@ -1,5 +1,6 @@
 # Guide Stack
 Final project from the web developer grade.
+
 Guide Stack is an application developed in React whose objective is to collect information from different cities and centralize it on a single website.
 
 # What's need it
@@ -23,7 +24,7 @@ First you have to build the image of the aplication:
 ```
 docker build -t lrodrigueztevar/guidestack .
 ```
-Finally, run a container with this image with:
+Finally, run a container using this image with:
 ```
 docker run -p 3000:3000 lrodrigueztevar/guidestack
 ```
