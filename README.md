@@ -4,7 +4,7 @@ Final project for the web developer grade.
 Guide Stack is an application developed in React whose objective is to collect information from different cities and centralize it on a single website.
 
 # What's need it
-To run this project, first you need a Google API Key from his platform following [this URL](https://console.cloud.google.com/apis/credentials?hl=es-419&authuser=1&angularJsUrl=%2Fprojectselector%2Fapis%2Fcredentials%3Fhl%3Des-419%26supportedpurview%3Dproject%26authuser%3D1&project=guidestack&folder=&organizationId=&supportedpurview=project)
+To run this project, first you need a Google API Key from this platform following [this URL](https://console.cloud.google.com/apis/credentials?hl=es-419&authuser=1&angularJsUrl=%2Fprojectselector%2Fapis%2Fcredentials%3Fhl%3Des-419%26supportedpurview%3Dproject%26authuser%3D1&project=guidestack&folder=&organizationId=&supportedpurview=project)
 and adding it on ``` src/Component/Pages/Map/config.js ```
 
 This is needed if you want the app to work.
